@@ -1,0 +1,5 @@
+Il CSS, acronimo di Cascading Style Sheets, è un linguaggio di stile utilizzato per descrivere l'aspetto e la formattazione di un documento HTML (o di una pagina web). Consente di separare il contenuto strutturale di una pagina web dalla sua presentazione visuale, consentendo agli sviluppatori web di definire il layout, i colori, i tipi di carattere e altri aspetti stilistici di una pagina web.
+
+In pratica, il CSS definisce le regole che specificano come gli elementi HTML dovrebbero essere visualizzati nel browser. Ad esempio, è possibile utilizzare il CSS per impostare i margini e i padding degli elementi, la larghezza e l'altezza degli elementi, i colori di sfondo, i bordi, i tipi di carattere, gli stili di testo, e molto altro ancora.
+
+L'uso del CSS rende più facile mantenere la coerenza e il controllo sul design di un sito web, poiché è possibile applicare le stesse regole di stile a più pagine o a un intero sito web semplicemente collegando un file CSS esterno.
