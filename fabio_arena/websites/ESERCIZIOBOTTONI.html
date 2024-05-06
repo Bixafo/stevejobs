@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+<title>Incrementa/Decrementa</title>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    #container {
+        text-align: center;
+    }
+    button {
+        font-size: 20px;
+        padding: 10px 20px;
+        margin: 0 10px;
+    }
+</style>
+</head>
+<body>
+<div id="container">
+    <button id="decrement">-</button>
+    <span id="counter">0</span>
+    <button id="increment">+</button>
+</div>
+
+<script>
+    const counter = document.getElementById("counter");
+    const incrementBtn = document.getElementById("increment");
+    const decrementBtn = document.getElementById("decrement");
+
+    let count = 0;
+
+    incrementBtn.addEventListener("click", () => {
+        count++;
+        counter.textContent = count;
+    });
+
+    decrementBtn.addEventListener("click", () => {
+        if (count > 0) {
+            count--;
+            counter.textContent = count;
+        }
+    });
+</script>
+</body>
+</html>
+
